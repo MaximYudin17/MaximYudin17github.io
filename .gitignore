@@ -1,0 +1,11 @@
+git branch testing
+git checkout testing
+git commit –a –m “изменение в ветке testing”
+git checkout master
+Git commit –a –m “внесены изменения в master ветку”
+git branch br1
+git checkout br1
+git checkout -b br1
+git merge br1
+git branch –d название_ветки
+git branch –D название_ветки
